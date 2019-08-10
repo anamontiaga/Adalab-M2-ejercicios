@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+}
+  
+.logo {
+  height: 50px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+.percent__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.percent__container-input {
+  border: 3px solid rgb(15, 233, 230);
+  border-radius: 7px;
+  width: 120px;
+  height: 25px;
+  margin-right: 50px;
+}
+
+.percent__container-input::placeholder {
+  padding-right: 5px;
+  text-align: end;
+}
+
+.bar {
+  height: 30px;
+  width: 3%;
+  min-width: 3%;
+  border: 3px solid rgb(15, 233, 230);
+  margin-top: 25px; 
+  border-radius: 7px;
+}
