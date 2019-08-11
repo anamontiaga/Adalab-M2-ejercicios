@@ -1,0 +1,12 @@
+.main {
+  background-color: pink;
+}
+
+.main__title {
+  color: red;
+}
+
+.mega-wave {
+  color: yellow;
+  text-decoration: underline overline;
+}
