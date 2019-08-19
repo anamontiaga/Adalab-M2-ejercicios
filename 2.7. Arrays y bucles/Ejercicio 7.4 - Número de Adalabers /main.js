@@ -29,3 +29,15 @@ const contacts = [
 ];
 
 // Una función countDesigners que devuelve el número de adalabers que son diseñadoras.
+
+function countDesigners(contacts) {
+  let designers = 0;
+  for (let i = 0; i < contacts.length; i++) {
+    if (contacts[i].job === "diseñadora") {
+      designers++;
+    }
+  }
+  return designers;
+}
+
+console.log(countDesigners(contacts));
