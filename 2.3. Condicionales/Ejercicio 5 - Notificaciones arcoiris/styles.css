@@ -1,0 +1,12 @@
+.div-section {
+  border: solid 2px green;
+  background-color: blue;
+}
+
+.title-section {
+  border: solid 2px red;
+}
+
+.text-section {
+  border: solid 2px yellow;
+}
