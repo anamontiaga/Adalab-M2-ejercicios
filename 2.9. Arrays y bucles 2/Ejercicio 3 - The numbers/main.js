@@ -29,5 +29,3 @@ console.log(multipleOfThreeNumbers);
 
 const result = evenNumbers.concat(multipleOfThreeNumbers);
 console.log(result);
-
-///// No se me concatenan porque el índice es el mismo.
