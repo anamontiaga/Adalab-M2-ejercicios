@@ -25,3 +25,13 @@ const adalaber2 = {
 console.log(`${adalaber2.name}, ${adalaber2.age} años, ${adalaber2.profession}`);
 
 // La consola me pinta: "Rocío, 25 años, actriz"
+
+// EXTRA: Creando objetos desde 0 y objetos dentro de objetos.
+const adalaber3 = {};
+adalaber3.name = "Ana";
+adalaber3.age = 18;
+adalaber3.job = {};
+adalaber3.job.name = "Frontend Developer";
+adalaber3.job.type = "Tech";
+
+console.log(adalaber3);
