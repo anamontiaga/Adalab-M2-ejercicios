@@ -9,14 +9,14 @@ const pearBasket = {
 
 // Añadir al cesto una pera
 
-pearBasket.addpear = function() {
+pearBasket.addPear = function() {
   return pearBasket.numberpear + 1;
 };
 
-console.log(pearBasket.addpear());
+console.log(pearBasket.addPear());
 
 // Sacar del cesto una pera
-pearBasket.removepear = function() {
+pearBasket.removePear = function() {
   return pearBasket.numberpear - 1;
 };
 

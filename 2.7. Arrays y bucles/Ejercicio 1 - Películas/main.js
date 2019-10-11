@@ -13,7 +13,7 @@ console.log(films);
 
 // vamos a encapsular todo el código que hemos creado en una función que no toma parámetros y que llamaremos workWithMovies. Ejecutamos la función para comprobar que se muestran los mensajes en la consola correspondientes.
 
-const workWithMovies = function() {
+const workWithMovies = () => {
   return films;
 };
 
