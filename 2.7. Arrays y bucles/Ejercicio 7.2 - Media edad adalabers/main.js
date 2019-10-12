@@ -31,11 +31,11 @@ const contacts = [
 // Una función averageAge que devuelve la media de edad de listado.
 let acumulator = 0;
 
-function averageAge(obj, a) {
+const averageAge = (obj, a) => {
   for (let i = 0; i < contacts.length; i++) {
-    a += obj[i].age;
+    a = a + obj[i].age;
   }
   return a / parseInt(contacts.length);
-}
+};
 
 console.log(averageAge(contacts, acumulator));

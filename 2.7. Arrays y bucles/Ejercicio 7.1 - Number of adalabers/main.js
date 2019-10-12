@@ -30,9 +30,9 @@ const contacts = [
 
 // Una función countAdalabers que devuelve el número de adalabers en el listado.
 
-function countAdalabers() {
+const countAdalabers = () => {
   for (let i = 0; i < contacts.length; i++) {}
   return contacts.length;
-}
+};
 
 console.log(countAdalabers());

@@ -34,7 +34,7 @@ function countDesigners(contacts) {
   let designers = 0;
   for (let i = 0; i < contacts.length; i++) {
     if (contacts[i].job === "diseñadora") {
-      designers++;
+      designers = designers + 1;
     }
   }
   return designers;

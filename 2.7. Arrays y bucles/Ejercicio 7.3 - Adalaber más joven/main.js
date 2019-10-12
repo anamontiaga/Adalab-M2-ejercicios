@@ -28,16 +28,27 @@ const contacts = [
   }
 ];
 
+console.log(contacts.length);
 // Una función theYoungest que devuelve el nombre de la adalaber más joven.
-let minAge = 100;
-debugger;
-function theYoungest(minAge, contacts) {
-  for (let i = 0; i < contacts.length; i++) {
-    if (minAge > contacts[0].age) {
-      minAge = contacts[0].age;
+
+const theYoungest = arr => {
+  let youngest = 100;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].age < youngest) {
+      youngest = arr[i].age;
+    } else {
+      youngest = youngest;
     }
   }
-  return minAge;
-}
 
-console.log(theYoungest);
+  let name;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].age === youngest) {
+      name = arr[i].name;
+    }
+  }
+  console.log(`La adalaber más joven tiene ${youngest} años y es ${name}`);
+};
+
+theYoungest(contacts);
